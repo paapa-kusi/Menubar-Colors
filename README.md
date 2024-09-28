@@ -12,6 +12,7 @@
   • <a href="#recommended-plugins">Plugins</a>
 </p>
 
+
 ## What is this?
 
 This a utility that runs in the OS X menubar that allows for quick access to the
@@ -31,8 +32,10 @@ system-wide color panel.
 
 ## How do you use this?
 
-Left click toggles the color panel's visibility. <br/>
-Right click opens a drop down menu of options.
+- Left click toggles the color panel's visibility. <br/>
+- Right click opens a drop down menu of options.
+    - Closing the application.
+    - Color panel settings.
 
 ## Who is this for?
 
@@ -43,22 +46,31 @@ because of how extensible it is.
 ## Recommended Plugins
 
 ### Skala Color
+An advanced color picker for designers.
 
 [Download](http://bjango.com/mac/skalacolor/)
 
 Cask: `brew cask install colorpicker-skalacolor`
 
 ### Antetype Color Picker
+Color picker for UI/UX designers.
 
 [Download](http://www.antetype.com/blog/2014/03/updated-antetype-color-picker-1-4-1/)
 
 Cask: `brew cask install colorpicker-antetype`
 
 ### Developer Color Picker
+A tool for developers that provides hex and RGB color codes.
 
 [Download](http://download.panic.com/picker/)
 
 Cask: `brew cask install colorpicker-developer`
+
+## FAQ
+- Can I customize the color picker?
+    - This project uses the system-wide panel, so it's functionality can be extended with the plugins in the plugins section.
+- Does this work between multiple monitors?
+    - Yes, this should work between multiple seamless displays. The color panel will open on the screen where the menubar is.
 
 ## License
 
